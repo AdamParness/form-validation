@@ -1,0 +1,28 @@
+body {
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #d2dce1;
+    padding: 4vh 3vh;
+    width: 150px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 15px;
+}
+
+input.valid {
+    border: 2px solid green;
+}
+
+input.invalid {
+    border: 2px solid red;
+}
